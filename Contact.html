@@ -47,7 +47,7 @@
                 
 
                 <div class="ContactFrom">
-                    <form>
+                    <form onsubmit="event.preventDefault(); validateForm()">
                         <h1>Contact Us</h1>
 
                         <label for="name">Name:</label>
@@ -67,7 +67,10 @@
                             <p class="success"></p>
                         </div>
                     </form>
+
                 </div>
+
+                <script>src="script.js"</script>
     <!--Socials START-->
     <div class="Social">
 
