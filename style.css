@@ -1,0 +1,333 @@
+*{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    column-gap: 20px;
+    row-gap: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:coral;
+}
+
+.Navigation{
+    padding: 20px;
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    margin: auto;
+
+}
+
+.Navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+.Intro{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text h3{
+    color: coral;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    color: white;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align:center;
+}
+button{
+        width: 400px;
+        padding: 1%;
+        font-size: 30px;
+        color: #15f4ee;
+        font-family: padding;
+        font-weight: bold;
+        border: 3px solid #15f4ee;
+        letter-spacing: 0.5px;
+        cursor:pointer;
+        border-radius: 100px;
+        transition: 1.5s;
+        margin: center;
+        }
+        
+button:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+
+
+
+.Location{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.locinfo h1{
+    color: coral;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+.locinfo h6{
+    color: white;
+    font-size: 25px;
+}
+.locinfo a{
+    font-size: 20px;
+    color: coral;
+}
+
+
+.story{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.textstory h1{
+    color: coral;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+
+p {
+    color:white;
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    columns: 150px 2;
+    column-gap: 40px;
+
+}
+.Social{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Intro_Store{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Title_Store h5{
+    color: white;
+    padding-right: 900px;
+    text-align: center;
+    
+}
+
+.Title_Store h1{
+    color: coral;
+    text-align: center;
+}
+
+.Products{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: black;
+    background-color: white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background:coral
+}
+
+.Product_Details{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_product p1{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.Intro_PartnersSponsors{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_part h1{
+    color: coral;
+    text-align: center;
+}
+
+.text_part h5{
+    color: white;
+    padding-right: 900px;
+    text-align: center;
+}
+
+.sponsors{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Intro_Contact{
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_contact h1{
+    color: white
+}
+
+.text_contact p2{
+    color: coral;
+}
+
+.ContactFrom form{
+    max-width: 550px;
+    width: 90%;
+    background: black;
+    margin: 17px auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.ContactFrom label{
+    display: block;
+    margin: 20px 0;
+    color: white;
+}
+
+.ContactFrom input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: 1px solid coral;
+    text-align: center;
+    color: white;
+}
+
+.ContactFrom form h1{
+    color: white;
+    text-align: center;
+}
+
+.ContactFrom input[type="submit"]{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error{
+    color:red;
+}
