@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XN Festival-Store</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="database" href="database.php">
 
 </head>
 <body>
@@ -16,13 +15,13 @@
     <div class = "container">
         <div class = "Navigation">
             
-                <img src="Logo.png" alt="Festival Logo" width="200" height="125" class = "logo">
+                <img src="Img/Logo.png" alt="Festival Logo" width="200" height="125" class = "logo">
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="merch.html">Merch</a>
+                        <a href="merch.php">Merch</a>
                     </li>
                     <li>
                         <a href="Partners&Sponsors.html">Partners & Sponsors</a>
@@ -54,10 +53,10 @@
          <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
         <!-- Slides -->
-                <div class="swiper-slide"><img src="hanoracnegru.png"></div>
-                <div class="swiper-slide"><img src="hanoracgri.png"></div>
-                <div class="swiper-slide"><img src="pantaloninegru.png"></div>
-                <div class="swiper-slide"><img src="pantalonigri.png"></div>
+                <div class="swiper-slide"><img src="Img/hanoracnegru.png"></div>
+                <div class="swiper-slide"><img src="Img/hanoracgri.png"></div>
+                <div class="swiper-slide"><img src="Img/pantaloninegru.png"></div>
+                <div class="swiper-slide"><img src="Img/pantalonigri.png"></div>
             </div>
          <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -78,11 +77,48 @@
                 100% cotton<br>
                 Unisex fit
             </p1>
-            
-
             </div>
+
+            <table class="products_table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Color</th>
+                <th>Size</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $database = "webdatabase";
+
+            $connection = new mysqli($servername, $username, $password, $database);
+            
+            $sql = "SELECT * FROM products";
+            $result = $connection->query($sql);
+            
+            while($row = $result->fetch_assoc()){
+                echo "<tr>
+                    <td>" . $row["Product"] . "</td>
+                    <td>" . $row["Color"] . "</td>
+                    <td>" . $row["Size"] . "</td>
+                    <td>" . $row["Price"] . "</td>
+
+                </tr>";
+            }
+            
+            
+            ?>
+        </tbody>
+    
+    </table>
         </div>
         <!--Product_Details-->
+        
         
         
         <!--Footer START-->
