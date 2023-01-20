@@ -58,10 +58,10 @@
                 <div class="swiper-slide"><img src="Img/pantaloninegru.png"></div>
                 <div class="swiper-slide"><img src="Img/pantalonigri.png"></div>
             </div>
-         <!-- If we need pagination -->
+         <!-- Pagination -->
             <div class="swiper-pagination"></div>
   
-         <!-- If we need navigation buttons -->
+         <!-- Navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
   
@@ -69,7 +69,7 @@
         </div>
         <!--Produscts END-->
         
-        <!--Product_Details-->
+        <!--Product_Details START-->
         <div class="Product_Details">
             <div class="text_product">
             <p1>Limited-edition merch with a one-of-a-kind look, 
@@ -117,7 +117,7 @@
     
     </table>
         </div>
-        <!--Product_Details-->
+        <!--Product_Details END-->
         
         
         
@@ -140,6 +140,7 @@
         </div>
         <!--Footer END-->
 
+        <!--Script for slider-->
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         
         <script>

@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
 ?>
 
 
-
+<!--RegisterForm START-->
 
 <div class="Register-form">
 <div class="form-container">
@@ -117,6 +117,7 @@ if (isset($_POST['submit'])) {
 </div>
 </div>
 
+<!--RegisterForm END-->
 
 <!--Socials START-->
 <div class="Social">
