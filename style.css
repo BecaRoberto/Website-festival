@@ -155,6 +155,8 @@ p {
     grid-column-end: 3;
 }
 
+/*MERCH*/
+
 .Intro_Store{
     padding: 20px;
     font-size: 30px;
@@ -227,6 +229,8 @@ p {
     
 }
 
+/*PartnersSponsors*/
+
 .Intro_PartnersSponsors{
     padding: 20px;
     font-size: 30px;
@@ -263,6 +267,9 @@ p {
     align-items: center;
     justify-content: space-around;
 }
+
+/*CONTACT*/
+
 
 .Intro_Contact{
     padding: 20px;
@@ -328,6 +335,8 @@ p {
     border-radius: 3px;
 }
 
+/*Product Table*/
+
 .products_table{
     color: white;
     border-collapse: collapse;
@@ -351,7 +360,7 @@ p {
     border-bottom: 1px solid #dddddd;
 }
 
-/*----------------------------------------------*/
+/*Register*/
 
 .Register-form{
     padding: 20px;
