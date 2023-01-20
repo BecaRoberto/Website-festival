@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XN Festival-Store</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 </head>
@@ -30,7 +30,7 @@
                         <a href="Contact.html">Contact</a>
                     </li>
                     <li>
-                        <a href="Register&Login.html">Register/Login</a>
+                    <a href="Register.php">GIVEAWAY!</a>
                     </li>
                 </ul>
         </div>
